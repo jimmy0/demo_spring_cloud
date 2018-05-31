@@ -1,0 +1,246 @@
+2018-05-29 14:10:12.383 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c583ecf: startup date [Tue May 29 14:10:12 CST 2018]; root of context hierarchy
+2018-05-29 14:10:12.774 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e86cf918] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:10:14.642 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888/
+2018-05-29 14:10:16.701 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Located environment: name=application, profiles=[prod], label=master, version=36a611a4ea65c9f8ab21b9e4514aae4156fc760a, state=null
+2018-05-29 14:10:16.702 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -
+				Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://39.106.210.217:8930/lzm/b.git/application-prod.properties'}, MapPropertySource {name='https://39.106.210.217:8930/lzm/b.git/application.properties'}]}
+2018-05-29 14:10:16.719 [main] INFO  com.lzm.config_client.MyApplication -
+				No active profile set, falling back to default profiles: default
+2018-05-29 14:10:16.741 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4278284b: startup date [Tue May 29 14:10:16 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4c583ecf
+2018-05-29 14:10:17.497 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=978ba8c9-2f1a-3245-8651-85c45b451c53
+2018-05-29 14:10:17.583 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e86cf918] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:10:18.055 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8881 (http)
+2018-05-29 14:10:18.084 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8881"]
+2018-05-29 14:10:18.098 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-05-29 14:10:18.099 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:10:18.236 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin?鶸?;;C:\Program Files\Git\cmd;E:\python\Python36-32\Scripts\;E:\python\Python36-32\;C:\Users\simba\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;E:\java\apache-maven-3.3.9/bin;;E:\software\eclipse-jee-neon-2-win32-x86_64\eclipse;;.]
+2018-05-29 14:10:18.470 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-05-29 14:10:18.470 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1729 ms
+2018-05-29 14:10:18.729 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:10:18.737 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:10:18.738 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:10:18.738 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:10:18.738 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:10:18.781 [main] INFO  c.l.c.MyApplication$$EnhancerBySpringCGLIB$$16e8aa62 -
+				>>> profile:prod
+2018-05-29 14:10:18.864 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:10:19.414 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4278284b: startup date [Tue May 29 14:10:16 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4c583ecf
+2018-05-29 14:10:19.565 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/hi]}" onto public java.lang.String com.lzm.config_client.MyApplication.hi()
+2018-05-29 14:10:19.611 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 14:10:19.612 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 14:10:19.704 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:10:19.705 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:10:21.577 [main] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-05-29 14:10:21.651 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-05-29 14:10:21.661 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-05-29 14:10:21.686 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-05-29 14:10:21.686 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-05-29 14:10:21.690 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-05-29 14:10:21.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-05-29 14:10:21.712 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4278284b,type=ConfigurationPropertiesRebinder]
+2018-05-29 14:10:21.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8881"]
+2018-05-29 14:10:21.990 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-05-29 14:10:22.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8881 (http) with context path ''
+2018-05-29 14:10:22.253 [main] INFO  com.lzm.config_client.MyApplication -
+				Started MyApplication in 11.765 seconds (JVM running for 12.628)
+2018-05-29 14:11:22.885 [main] INFO o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@74f0ea28: startup date [Tue May 29 14:11:22 CST 2018]; root of context hierarchy
+2018-05-29 14:11:23.248 [main] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b88867c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:11:24.964 [main] INFO o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888/
+2018-05-29 14:11:27.012 [main] INFO o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Located environment: name=application, profiles=[prod], label=master, version=36a611a4ea65c9f8ab21b9e4514aae4156fc760a, state=null
+2018-05-29 14:11:27.013 [main] INFO o.s.c.b.c.PropertySourceBootstrapConfiguration -
+				Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://39.106.210.217:8930/lzm/b.git/application-prod.properties'}, MapPropertySource {name='https://39.106.210.217:8930/lzm/b.git/application.properties'}]}
+2018-05-29 14:11:27.022 [main] INFO com.lzm.config_client.MyApplication -
+				No active profile set, falling back to default profiles: default
+2018-05-29 14:11:27.041 [main] INFO o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4816278d: startup date [Tue May 29 14:11:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@74f0ea28
+2018-05-29 14:11:27.802 [main] INFO o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=978ba8c9-2f1a-3245-8651-85c45b451c53
+2018-05-29 14:11:27.899 [main] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b88867c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:11:28.395 [main] INFO o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8881 (http)
+2018-05-29 14:11:28.430 [main] INFO org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8881"]
+2018-05-29 14:11:28.446 [main] INFO org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-05-29 14:11:28.446 [main] INFO org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:11:28.548 [localhost-startStop-1] INFO org.apache.catalina.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin?鶸?;;C:\Program Files\Git\cmd;E:\python\Python36-32\Scripts\;E:\python\Python36-32\;C:\Users\simba\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;E:\java\apache-maven-3.3.9/bin;;E:\software\eclipse-jee-neon-2-win32-x86_64\eclipse;;.]
+2018-05-29 14:11:28.766 [localhost-startStop-1] INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-05-29 14:11:28.766 [localhost-startStop-1] INFO org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1725 ms
+2018-05-29 14:11:29.019 [localhost-startStop-1] INFO o.s.boot.web.servlet.ServletRegistrationBean -
+				Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:11:29.024 [localhost-startStop-1] INFO o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:11:29.024 [localhost-startStop-1] INFO o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:11:29.024 [localhost-startStop-1] INFO o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:11:29.024 [localhost-startStop-1] INFO o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:11:29.060 [main] INFO c.l.c.MyApplication$$EnhancerBySpringCGLIB$$4a0437c6 -
+				>>> profile:prod
+2018-05-29 14:11:29.155 [main] INFO o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:11:29.668 [main] INFO o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4816278d: startup date [Tue May 29 14:11:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@74f0ea28
+2018-05-29 14:11:29.837 [main] INFO o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/hi]}" onto public java.lang.String com.lzm.config_client.MyApplication.hi()
+2018-05-29 14:11:29.842 [main] INFO o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 14:11:29.843 [main] INFO o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 14:11:29.942 [main] INFO o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:11:29.943 [main] INFO o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:11:31.604 [main] INFO org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-05-29 14:11:31.692 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-05-29 14:11:31.749 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-05-29 14:11:31.751 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-05-29 14:11:31.751 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-05-29 14:11:31.754 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-05-29 14:11:31.767 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-05-29 14:11:31.776 [main] INFO o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4816278d,type=ConfigurationPropertiesRebinder]
+2018-05-29 14:11:31.844 [main] INFO org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8881"]
+2018-05-29 14:11:32.017 [main] INFO org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-05-29 14:11:32.076 [main] INFO o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8881 (http) with context path ''
+2018-05-29 14:11:32.080 [main] INFO com.lzm.config_client.MyApplication -
+				Started MyApplication in 11.028 seconds (JVM running for 11.761)
+2018-05-29 14:15:20.489 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1283bb96: startup date [Tue May 29 14:15:20 CST 2018]; root of context hierarchy
+2018-05-29 14:15:20.744 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4bb6aed9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:15:22.111 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888/
+2018-05-29 14:15:22.401 [main] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: label not found
+2018-05-29 14:15:22.414 [main] INFO  com.lzm.config_client.MyApplication -
+				No active profile set, falling back to default profiles: default
+2018-05-29 14:15:22.457 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4eaf3684: startup date [Tue May 29 14:15:22 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1283bb96
+2018-05-29 14:15:23.006 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=978ba8c9-2f1a-3245-8651-85c45b451c53
+2018-05-29 14:15:23.070 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4bb6aed9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:15:23.418 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8881 (http)
+2018-05-29 14:15:23.431 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8881"]
+2018-05-29 14:15:23.442 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-05-29 14:15:23.442 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:15:23.453 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin?鶸?;;C:\Program Files\Git\cmd;E:\python\Python36-32\Scripts\;E:\python\Python36-32\;C:\Users\simba\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;E:\java\apache-maven-3.3.9/bin;;E:\software\eclipse-jee-neon-2-win32-x86_64\eclipse;;.]
+2018-05-29 14:15:23.627 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-05-29 14:15:23.628 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1171 ms
+2018-05-29 14:15:23.791 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:15:23.796 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:15:23.796 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:15:23.796 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:15:23.797 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:15:23.824 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myApplication': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'profile' in value "${profile}"
+2018-05-29 14:15:23.825 [main] INFO  org.apache.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2018-05-29 14:15:23.839 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-05-29 14:15:23.842 [main] ERROR org.springframework.boot.SpringApplication -
+				Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myApplication': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'profile' in value "${profile}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1348)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.lzm.config_client.MyApplication.main(MyApplication.java:41)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'profile' in value "${profile}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:839)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 17 common frames omitted
