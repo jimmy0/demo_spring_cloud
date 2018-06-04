@@ -12,7 +12,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>2.0.2.RELEASE</spring-boot.version>
 		<!-- <spring-boot.version>1.5.10.RELEASE</spring-boot.version> -->
-		<spring-cloud.version>2.0.0.RC2</spring-cloud.version>
+		<!-- <spring-cloud.version>2.0.0.RC2</spring-cloud.version> -->
+		<!-- 必须用1.4.3，否则出现index越界异常 -->
+		<spring-cloud.version>1.4.3.RELEASE</spring-cloud.version>
 	</properties>
 
 	<dependencyManagement>
@@ -30,7 +32,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
-		</dependency>		
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
