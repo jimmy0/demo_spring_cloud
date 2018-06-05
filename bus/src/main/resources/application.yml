@@ -1,0 +1,10 @@
+#server
+server:
+  port: 8882
+      
+spring:
+  rabbitmq:
+    host: 39.106.210.217
+    port: 5672
+    username: rabbit
+    password: abc

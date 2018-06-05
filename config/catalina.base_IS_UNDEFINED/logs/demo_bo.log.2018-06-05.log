@@ -312,3 +312,169 @@
 				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
 2018-06-05 14:21:58.953 [http-nio-8888-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext -
 				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7f0786df: startup date [Tue Jun 05 14:21:58 CST 2018]; root of context hierarchy
+2018-06-05 14:27:26.981 [http-nio-8888-exec-7] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 14:27:27.047 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f73dc49: startup date [Tue Jun 05 14:27:27 CST 2018]; root of context hierarchy
+2018-06-05 14:27:27.062 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 14:27:27.062 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 14:27:27.062 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f73dc49: startup date [Tue Jun 05 14:27:27 CST 2018]; root of context hierarchy
+2018-06-05 14:27:38.069 [http-nio-8888-exec-8] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 14:27:38.134 [http-nio-8888-exec-8] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@201d96ae: startup date [Tue Jun 05 14:27:38 CST 2018]; root of context hierarchy
+2018-06-05 14:27:38.149 [http-nio-8888-exec-8] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 14:27:38.149 [http-nio-8888-exec-8] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 14:27:38.149 [http-nio-8888-exec-8] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@201d96ae: startup date [Tue Jun 05 14:27:38 CST 2018]; root of context hierarchy
+2018-06-05 14:28:33.028 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository -
+				Fetched for remote master and found 1 updates
+2018-06-05 14:28:34.316 [http-nio-8888-exec-10] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 14:28:34.356 [http-nio-8888-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6cb0cb61: startup date [Tue Jun 05 14:28:34 CST 2018]; root of context hierarchy
+2018-06-05 14:28:34.356 [http-nio-8888-exec-10] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 14:28:34.356 [http-nio-8888-exec-10] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 14:28:34.356 [http-nio-8888-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6cb0cb61: startup date [Tue Jun 05 14:28:34 CST 2018]; root of context hierarchy
+2018-06-05 14:29:30.697 [http-nio-8888-exec-2] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 14:29:30.748 [http-nio-8888-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28e05ec3: startup date [Tue Jun 05 14:29:30 CST 2018]; root of context hierarchy
+2018-06-05 14:29:30.763 [http-nio-8888-exec-2] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 14:29:30.763 [http-nio-8888-exec-2] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 14:29:30.763 [http-nio-8888-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28e05ec3: startup date [Tue Jun 05 14:29:30 CST 2018]; root of context hierarchy
+2018-06-05 14:34:26.172 [http-nio-8888-exec-4] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 14:34:26.252 [http-nio-8888-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@9fdd4d3: startup date [Tue Jun 05 14:34:26 CST 2018]; root of context hierarchy
+2018-06-05 14:34:26.268 [http-nio-8888-exec-4] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 14:34:26.268 [http-nio-8888-exec-4] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 14:34:26.268 [http-nio-8888-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@9fdd4d3: startup date [Tue Jun 05 14:34:26 CST 2018]; root of context hierarchy
+2018-06-05 14:36:15.579 [http-nio-8888-exec-7] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 14:36:15.631 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@a54b35d: startup date [Tue Jun 05 14:36:15 CST 2018]; root of context hierarchy
+2018-06-05 14:36:15.646 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 14:36:15.647 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 14:36:15.647 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@a54b35d: startup date [Tue Jun 05 14:36:15 CST 2018]; root of context hierarchy
+2018-06-05 15:03:42.025 [http-nio-8888-exec-8] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:03:42.093 [http-nio-8888-exec-8] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@112b8d64: startup date [Tue Jun 05 15:03:42 CST 2018]; root of context hierarchy
+2018-06-05 15:03:42.103 [http-nio-8888-exec-8] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:03:42.103 [http-nio-8888-exec-8] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:03:42.103 [http-nio-8888-exec-8] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@112b8d64: startup date [Tue Jun 05 15:03:42 CST 2018]; root of context hierarchy
+2018-06-05 15:03:51.049 [http-nio-8888-exec-10] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:03:51.124 [http-nio-8888-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49e58471: startup date [Tue Jun 05 15:03:51 CST 2018]; root of context hierarchy
+2018-06-05 15:03:51.133 [http-nio-8888-exec-10] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:03:51.133 [http-nio-8888-exec-10] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:03:51.133 [http-nio-8888-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@49e58471: startup date [Tue Jun 05 15:03:51 CST 2018]; root of context hierarchy
+2018-06-05 15:04:51.003 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository -
+				Fetched for remote master and found 1 updates
+2018-06-05 15:04:52.230 [http-nio-8888-exec-2] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:04:52.311 [http-nio-8888-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@46715115: startup date [Tue Jun 05 15:04:52 CST 2018]; root of context hierarchy
+2018-06-05 15:04:52.320 [http-nio-8888-exec-2] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:04:52.320 [http-nio-8888-exec-2] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:04:52.320 [http-nio-8888-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@46715115: startup date [Tue Jun 05 15:04:52 CST 2018]; root of context hierarchy
+2018-06-05 15:09:44.378 [http-nio-8888-exec-4] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:09:44.456 [http-nio-8888-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a621dc0: startup date [Tue Jun 05 15:09:44 CST 2018]; root of context hierarchy
+2018-06-05 15:09:44.463 [http-nio-8888-exec-4] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:09:44.463 [http-nio-8888-exec-4] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:09:44.464 [http-nio-8888-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a621dc0: startup date [Tue Jun 05 15:09:44 CST 2018]; root of context hierarchy
+2018-06-05 15:09:53.748 [http-nio-8888-exec-7] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:09:53.796 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5292dbec: startup date [Tue Jun 05 15:09:53 CST 2018]; root of context hierarchy
+2018-06-05 15:09:53.803 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:09:53.803 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:09:53.803 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5292dbec: startup date [Tue Jun 05 15:09:53 CST 2018]; root of context hierarchy
+2018-06-05 15:11:28.371 [http-nio-8888-exec-8] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:11:28.470 [http-nio-8888-exec-8] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d4f3997: startup date [Tue Jun 05 15:11:28 CST 2018]; root of context hierarchy
+2018-06-05 15:11:28.481 [http-nio-8888-exec-8] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:11:28.481 [http-nio-8888-exec-8] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:11:28.481 [http-nio-8888-exec-8] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d4f3997: startup date [Tue Jun 05 15:11:28 CST 2018]; root of context hierarchy
+2018-06-05 15:11:37.007 [http-nio-8888-exec-10] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:11:37.127 [http-nio-8888-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6be6f68b: startup date [Tue Jun 05 15:11:37 CST 2018]; root of context hierarchy
+2018-06-05 15:11:37.143 [http-nio-8888-exec-10] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:11:37.143 [http-nio-8888-exec-10] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:11:37.143 [http-nio-8888-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6be6f68b: startup date [Tue Jun 05 15:11:37 CST 2018]; root of context hierarchy
+2018-06-05 15:12:42.190 [http-nio-8888-exec-2] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:12:42.260 [http-nio-8888-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6312c165: startup date [Tue Jun 05 15:12:42 CST 2018]; root of context hierarchy
+2018-06-05 15:12:42.271 [http-nio-8888-exec-2] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:12:42.272 [http-nio-8888-exec-2] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:12:42.272 [http-nio-8888-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6312c165: startup date [Tue Jun 05 15:12:42 CST 2018]; root of context hierarchy
+2018-06-05 15:12:51.087 [http-nio-8888-exec-3] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:12:51.163 [http-nio-8888-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f8c224a: startup date [Tue Jun 05 15:12:51 CST 2018]; root of context hierarchy
+2018-06-05 15:12:51.177 [http-nio-8888-exec-3] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:12:51.177 [http-nio-8888-exec-3] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:12:51.177 [http-nio-8888-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f8c224a: startup date [Tue Jun 05 15:12:51 CST 2018]; root of context hierarchy
+2018-06-05 15:13:28.945 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository -
+				Fetched for remote master and found 1 updates
+2018-06-05 15:13:30.215 [http-nio-8888-exec-7] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 15:13:30.289 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7adbea8e: startup date [Tue Jun 05 15:13:30 CST 2018]; root of context hierarchy
+2018-06-05 15:13:30.298 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application-prod.properties
+2018-06-05 15:13:30.298 [http-nio-8888-exec-7] INFO  o.s.c.c.s.environment.NativeEnvironmentRepository -
+				Adding property source: file:/C:/Users/simba/AppData/Local/Temp/config-repo-1359201260657302320/application.properties
+2018-06-05 15:13:30.298 [http-nio-8888-exec-7] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7adbea8e: startup date [Tue Jun 05 15:13:30 CST 2018]; root of context hierarchy
