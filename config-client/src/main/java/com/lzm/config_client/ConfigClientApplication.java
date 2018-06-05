@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class MyApplication {
+public class ConfigClientApplication {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
@@ -38,7 +38,7 @@ public class MyApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyApplication.class, args);
+		SpringApplication.run(ConfigClientApplication.class, args);
 
 	}
 
