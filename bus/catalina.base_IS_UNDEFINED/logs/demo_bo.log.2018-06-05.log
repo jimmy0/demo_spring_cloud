@@ -1328,3 +1328,193 @@
 				Channel 'application:8882.springCloudBusInput' has 1 subscriber(s).
 2018-06-05 15:12:48.080 [main] INFO  o.s.context.support.DefaultLifecycleProcessor -
 				Starting beans in phase -2147482648
+2018-06-05 16:11:06.454 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6cf0e0ba: startup date [Tue Jun 05 16:11:06 CST 2018]; root of context hierarchy
+2018-06-05 16:11:06.906 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.6.Final
+2018-06-05 16:11:06.971 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$21f849e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-05 16:11:08.581 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888/
+2018-06-05 16:11:13.699 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Located environment: name=application, profiles=[prod], label=master, version=0cf35d9d452370a7cba8e6c6d80c923d38dca28b, state=null
+2018-06-05 16:11:13.700 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -
+				Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://39.106.210.217:8930/lzm/b.git/application-prod.properties'}, MapPropertySource {name='https://39.106.210.217:8930/lzm/b.git/application.properties'}]]
+2018-06-05 16:11:13.739 [main] INFO  com.lzm.bus.BusApplication -
+				No active profile set, falling back to default profiles: default
+2018-06-05 16:11:13.764 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e11485: startup date [Tue Jun 05 16:11:13 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6cf0e0ba
+2018-06-05 16:11:14.841 [main] INFO  o.s.integration.config.IntegrationRegistrar -
+				No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2018-06-05 16:11:15.598 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=efacf340-1a64-3267-9af9-c57fb56f2059
+2018-06-05 16:11:15.615 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor -
+				No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2018-06-05 16:11:15.617 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor -
+				No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2018-06-05 16:11:15.663 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ac713fcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-05 16:11:15.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-05 16:11:15.759 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-05 16:11:15.789 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$21f849e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-05 16:11:16.225 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8882 (http)
+2018-06-05 16:11:16.235 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-06-05 16:11:16.236 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-06-05 16:11:16.400 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-06-05 16:11:16.401 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2637 ms
+2018-06-05 16:11:16.753 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-05 16:11:16.762 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-06-05 16:11:16.762 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 16:11:16.762 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 16:11:16.762 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 16:11:16.763 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 16:11:16.763 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-06-05 16:11:16.763 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-06-05 16:11:16.812 [main] INFO  c.l.b.BusApplication$$EnhancerBySpringCGLIB$$ffdec300 -
+				>>> profile:prod2
+2018-06-05 16:11:17.231 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e11485: startup date [Tue Jun 05 16:11:13 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6cf0e0ba
+2018-06-05 16:11:17.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/hi]}" onto public java.lang.String com.lzm.bus.BusApplication.hi()
+2018-06-05 16:11:17.439 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 16:11:17.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-05 16:11:17.501 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 16:11:17.501 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 16:11:17.557 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 16:11:17.970 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler -
+				Initializing ExecutorService  'taskScheduler'
+2018-06-05 16:11:18.484 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.486 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-06-05 16:11:18.487 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-06-05 16:11:18.487 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.487 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.488 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.488 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-06-05 16:11:18.489 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-06-05 16:11:18.489 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.490 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-06-05 16:11:18.490 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-06-05 16:11:18.491 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/bus/refresh],methods=[POST]}" onto public void org.springframework.cloud.bus.endpoint.RefreshBusEndpoint.refresh(java.lang.String)
+2018-06-05 16:11:18.491 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/bus/env],methods=[POST]}" onto public void org.springframework.cloud.bus.endpoint.EnvironmentBusEndpoint.env(java.util.Map<java.lang.String, java.lang.String>,java.lang.String)
+2018-06-05 16:11:18.491 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-05 16:11:18.493 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.494 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-06-05 16:11:18.494 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.495 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.496 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.496 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.497 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-06-05 16:11:18.498 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:18.499 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-06-05 16:11:18.499 [main] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/channels || /channels.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-05 16:11:19.895 [main] INFO  org.springframework.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2018-06-05 16:11:20.023 [main] INFO  o.s.integration.codec.kryo.CompositeKryoRegistrar -
+				configured Kryo registration [40, java.io.File] with serializer org.springframework.integration.codec.kryo.FileSerializer
+2018-06-05 16:11:20.132 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-06-05 16:11:20.141 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-06-05 16:11:20.142 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'integrationMbeanExporter' has been autodetected for JMX exposure
+2018-06-05 16:11:20.143 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-06-05 16:11:20.144 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-06-05 16:11:20.145 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-06-05 16:11:20.145 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentBusEndpoint' has been autodetected for JMX exposure
+2018-06-05 16:11:20.146 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshBusEndpoint' has been autodetected for JMX exposure
+2018-06-05 16:11:20.147 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-06-05 16:11:20.150 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-06-05 16:11:20.165 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentBusEndpoint': registering with JMX server as MBean [org.springframework.cloud.bus.endpoint:name=environmentBusEndpoint,type=EnvironmentBusEndpoint]
+2018-06-05 16:11:20.171 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshBusEndpoint': registering with JMX server as MBean [org.springframework.cloud.bus.endpoint:name=refreshBusEndpoint,type=RefreshBusEndpoint]
+2018-06-05 16:11:20.179 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-06-05 16:11:20.191 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'integrationMbeanExporter': registering with JMX server as MBean [org.springframework.integration.monitor:name=integrationMbeanExporter,type=IntegrationMBeanExporter]
+2018-06-05 16:11:20.219 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2e11485,type=ConfigurationPropertiesRebinder]
+2018-06-05 16:11:20.224 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-06-05 16:11:20.231 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-06-05 16:11:20.239 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-06-05 16:11:20.239 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Registering MessageChannel springCloudBusOutput
+2018-06-05 16:11:20.243 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Located managed bean 'org.springframework.integration:type=MessageChannel,name=springCloudBusOutput': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=springCloudBusOutput]
+2018-06-05 16:11:20.273 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Registering MessageChannel nullChannel
+2018-06-05 16:11:20.275 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Located managed bean 'org.springframework.integration:type=MessageChannel,name=nullChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=nullChannel]
+2018-06-05 16:11:20.310 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Registering MessageChannel errorChannel
+2018-06-05 16:11:20.312 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Located managed bean 'org.springframework.integration:type=MessageChannel,name=errorChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=errorChannel]
+2018-06-05 16:11:20.331 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Registering MessageChannel springCloudBusInput
+2018-06-05 16:11:20.332 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Located managed bean 'org.springframework.integration:type=MessageChannel,name=springCloudBusInput': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=springCloudBusInput]
+2018-06-05 16:11:20.346 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Registering MessageHandler errorLogger
+2018-06-05 16:11:20.348 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter -
+				Located managed bean 'org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal': registering with JMX server as MBean [org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal]
+2018-06-05 16:11:20.364 [main] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-06-05 16:11:20.389 [main] INFO  o.s.integration.channel.DirectChannel -
+				Channel 'application:8882.springCloudBusInput' has 1 subscriber(s).
+2018-06-05 16:11:20.392 [main] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase -2147482648
